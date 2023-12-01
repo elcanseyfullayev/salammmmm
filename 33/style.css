@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 700px;
+  background-color: hotpink;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list .lists {
+  background-color: hotpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.list .lists p {
+  background-color: aqua;
+  padding: 20px;
+  width: 700px;
+  height: 0px;
+  opacity: 0;
+  transition: 400ms;
+}
+
+.active {
+  opacity: 1 !important;
+  height: 100px !important;
+}/*# sourceMappingURL=style.css.map */
